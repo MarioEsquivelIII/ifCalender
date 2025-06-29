@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { format } from 'date-fns';
 import { X, Save, Trash2, Clock, MapPin, Tag, Sparkles } from 'lucide-react';
-import { CalendarEvent, EventCategory } from '@/types/calendar';
+import { CalendarEvent, EventCategory, AlternativeEvent } from '@/types/calendar';
 import { generateEventId, formatDateTime } from '@/utils/calendar';
 import AlternativeModal from './AlternativeModal';
 import { AIService } from '@/services/aiService';
